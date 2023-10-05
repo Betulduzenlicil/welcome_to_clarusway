@@ -55,6 +55,8 @@ a:hover{
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
     /* position: relative; */
 }
 .kutu{
@@ -62,6 +64,8 @@ a:hover{
      position: relative;
      display: inline-block;
      cursor:zoom-in ;
+     outline: 20px solid #fff;
+     gap:1rem;
      
 
 }
@@ -98,4 +102,6 @@ footer{
     background-color: rgb(210, 140, 35);
     font-size: 20px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
